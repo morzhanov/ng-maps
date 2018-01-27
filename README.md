@@ -22,6 +22,13 @@ In this app you can:
 5. Add title to marker.
 6. Navigate to marker.
 
+## Main technologies
+* Angular 5
+* Node.js + Express.js
+* MongoDB
+* 2Gis library
+* AGM - Angular Google Maps library
+
 ## Contributing
 
 1. Fork it!
