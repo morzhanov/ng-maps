@@ -30,10 +30,6 @@ In this app you can:
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request :D
 
-## History
-
-TODO: Write history
-
 ## Author
 
 Vlad Morzhanov
@@ -43,4 +39,4 @@ Vlad Morzhanov
 #### (The MIT License)
 
 Copyright (c) 2018 Vlad Morzhanov
-You can review license in LICENSE.md file.
+You can review license in LICENSE file.
