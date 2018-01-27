@@ -1,6 +1,6 @@
 # Ng Maps
 
-Ng Maps is an application that allow you to create Markers with information on Google and 2Gis maps.
+Ng Maps is an application that allows you to create Markers with information on Google and 2Gis maps.
 
 ## Installation
 
