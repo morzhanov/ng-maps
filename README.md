@@ -45,5 +45,5 @@ Vlad Morzhanov
 
 #### (The MIT License)
 
-Copyright (c) 2018 Vlad Morzhanov
+Copyright (c) 2018 Vlad Morzhanov.
 You can review license in the LICENSE file.
