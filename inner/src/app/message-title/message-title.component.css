@@ -1,0 +1,56 @@
+:host {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 400px;
+  border-radius: 20px;
+  background-color: #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: Helvetica, sans-serif;
+}
+
+.form-group {
+  width: 100%;
+}
+
+label {
+  font-size: 18px;
+  color: #2c0059;
+}
+
+input {
+  width: 100%;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button {
+  font-family: Helvetica, sans-serif;
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #2c0059;
+  border: #2c0059 1px solid;
+  border-bottom: #2c0059 3px solid;
+  border-right: #2c0059 3px solid;
+  transition: 200ms ease all;
+}
+
+.buttons button:hover {
+  font-family: Helvetica, sans-serif;
+  width: 80px;
+  margin-left: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: #220044;
+  border: #220044 1px solid;
+  border-bottom: #220044 3px solid;
+  border-right: #220044 3px solid;
+}

@@ -1,0 +1,13 @@
+<div class="header">
+  <h3>Markers</h3>
+</div>
+<ul>
+  <li (click)="onItemClicked(i)" *ngFor="let item of locations; let i = index" [attr.data-index]="i">
+    {{item.title ? item.title :
+    ('Lat = ' +(item.lat + '').substring(0, 6) + '; Lng = ' +(item.lng + '').substring(0, 6))}}
+    <i class="fa fa-close" (click)="onCloseClicked(i); $event.stopPropagation();"></i>
+  </li>
+</ul>
+<div (click)="onClearAllClicked()" class="footer">
+  <h3>Clear all</h3>
+</div>

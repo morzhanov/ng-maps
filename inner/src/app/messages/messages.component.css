@@ -1,0 +1,26 @@
+.messages {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: auto;
+  background-color: #300060;
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border: 3px solid #fff;
+}
+
+.message p {
+  padding: 20px 20px;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  color: #ffe7bb;
+}

@@ -1,0 +1,6 @@
+<div class="sidebar">
+  <app-profile></app-profile>
+  <app-location-list (clearAll)="clearAll()" (centerMarker)="centerMarker($event)" (removeMarker)="removeMarker($event)"
+                     [locations]="locations"></app-location-list>
+</div>
+<app-maps (addMarker)="addMarker($event)"></app-maps>

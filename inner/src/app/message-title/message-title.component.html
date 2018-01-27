@@ -1,0 +1,9 @@
+  <div class="form-group">
+    <label for="title">Add Title to Marker</label>
+    <input type="text" class="form-control" id="title"
+           required [(ngModel)]="title" name="title">
+  </div>
+  <div class="buttons">
+    <button (click)="add()" class="add">Add</button>
+    <button (click)="cancel()" class="cancel">Cancel</button>
+  </div>

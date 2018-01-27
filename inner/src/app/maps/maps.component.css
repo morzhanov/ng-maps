@@ -1,0 +1,38 @@
+:host {
+  background-color: #80fff5;
+  width: 100%;
+  height: 100%;
+}
+
+#dg-map {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  outline: none !important;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  background-color: #3a0075;
+  color: #ffffff;
+  font-family: Helvetica, sans-serif;
+  border-color: #300060;
+  transition: background-color 200ms ease;
+}
+
+button:hover {
+  background-color: #220044;
+  border-color: #400089;
+}
+
+agm-map {
+  height: 100%;
+  width: 100%;
+}

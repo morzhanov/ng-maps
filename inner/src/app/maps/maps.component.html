@@ -1,0 +1,15 @@
+<div *ngIf="mapType === MAP_TYPE_DG" id="dg-map"></div>
+<agm-map (centerChange)="onGoogleMapCenterChanged($event)"
+         (mapClick)="onGoogleMapClicked($event)"
+         [zoom]="googleZoom"
+         *ngIf="mapType === MAP_TYPE_GOOGLE"
+         [usePanning]='true'
+         [latitude]="lat" [longitude]="lng">
+  <agm-marker *ngFor="let m of markers"
+              [title]="m._label._content"
+              [latitude]="m._latlng.lat"
+              [longitude]="m._latlng.lng"></agm-marker>
+  <app-core-map-content (onMapLoad)='loadGoogleAPIWrapper($event)'></app-core-map-content>
+</agm-map>
+<button (click)="onChangeMapType()">Change map</button>
+<app-message-title (result)="addTitle($event)" *ngIf="titlePopUp"></app-message-title>

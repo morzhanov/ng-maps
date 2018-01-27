@@ -1,0 +1,74 @@
+.form-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 600;
+  color: #df3437;
+}
+
+.ng-valid[required], .ng-valid.required {
+  border-left: 5px solid #42A948; /* green */
+}
+
+.ng-invalid:not(form) {
+  border-left: 5px solid #a94442; /* red */
+}
+
+input {
+  width: 350px;
+}
+
+.btn {
+  width: 350px;
+  font-family: Helvetica, sans-serif;
+  transition: background-color 300ms ease-in;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.social {
+  width: 350px;
+  display: flex;
+}
+
+.facebook, .google {
+}
+
+.facebook {
+  margin-right: 10px;
+  background-color: #6a72ff;
+}
+
+.facebook:hover {
+  background-color: #5057c6;
+}
+
+.google {
+  margin-left: 10px;
+  background-color: #ff3a3d;
+  transition: background-color 300ms ease-in;
+}
+
+.google:hover {
+  background-color: #c42d2f;
+}
+
+.btn {
+  height: 40px;
+}
