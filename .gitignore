@@ -20,7 +20,7 @@
 
 inner/.git
 inner/.gitignore
-inner/.README.md
+inner/README.md
 inner/Procfile
 
 # IDE - VSCode
