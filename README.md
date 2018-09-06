@@ -1,5 +1,7 @@
 # Ng Maps
 
+<img src="https://i.imgur.com/gudGzsE.png"/>
+
 Ng Maps is an application that allows you to create Markers with information on Google and 2Gis maps.
 
 ## Demo
@@ -27,11 +29,15 @@ In this app you can:
 6. Navigate to marker.
 
 ## Main technologies
-* Angular 5
-* Node.js + Express.js
-* MongoDB
-* 2Gis library
-* AGM - Angular Google Maps library
+
+- <a href="https://nodejs.org/en/">NodeJS</a>
+- <a href="https://expressjs.com/">ExpressJS</a>
+- <a href="https://angular.io/">Angular</a>
+- <a href="https://www.typescriptlang.org/">Typescript</a>
+- <a href="https://jwt.io/">JWT</a>
+- <a href="https://lodash.com/">Lodash</a>
+- <a href="http://api.2gis.ru/">2Gis API</a>
+- <a href="https://www.mongodb.com/">MongoDB</a>
 
 ## Contributing
 
